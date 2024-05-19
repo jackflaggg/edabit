@@ -8,11 +8,8 @@
 // countSyllables("NANANA") ➞ 3
 // Notes
 // For simplicity, please note that each syllable will consist of two letters only.
-// 	Your code should accept strings of any case (upper, lower and mixed case).
+//     Your code should accept strings of any case (upper, lower and mixed case).
 
 function countSyllables(str) {
-	const lengthStr = str.toLowerCase().match(new RegExp(`\\w{${Math.floor(str.length/2)}}`, "g"))
-	return  lengthStr ? lengthStr[0].length : 0;
-}
 
-console.log(countSyllables("Hehehehehehe"));
+}
