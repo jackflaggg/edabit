@@ -8,7 +8,7 @@
 // amazingEdabit("Infinity is amazing.") ➞ "Infinity is not amazing."
 
 function amazingEdabit(str) {
-	return str.search('amazing') > 0 ? str.replace('amazing', 'not amazing') : str;
+	return str.search('amazing') >= 0 ? str.replace('amazing', 'not amazing') : str;
 }
 
 console.log(amazingEdabit('edabit is amazing.'));
